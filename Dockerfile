@@ -2,6 +2,6 @@ FROM alpine:3.10
 
 RUN apk add --no-cache ca-certificates
 
-ADD ./template-operator /template-operator
+ADD ./azure-resource-group-operator /azure-resource-group-operator
 
-ENTRYPOINT ["/template-operator"]
+ENTRYPOINT ["/azure-resource-group-operator"]

@@ -8,13 +8,13 @@ func NewVersionBundle() versionbundle.Bundle {
 	return versionbundle.Bundle{
 		Changelogs: []versionbundle.Changelog{
 			{
-				Component:   "template-operator",
+				Component:   "azure-resource-group-operator",
 				Description: "TODO",
 				Kind:        versionbundle.KindChanged,
 			},
 		},
 		Components: []versionbundle.Component{},
-		Name:       "template-operator",
+		Name:       "azure-resource-group-operator",
 		Version:    BundleVersion(),
 	}
 }
