@@ -21,7 +21,7 @@ require (
 	golang.org/x/net v0.0.0-20191209160850-c0dbc17a3553 // indirect
 	k8s.io/api v0.16.6
 	k8s.io/apimachinery v0.16.6
-	k8s.io/client-go v0.16.6
+	k8s.io/client-go v0.18.0
 )
 
 replace (
