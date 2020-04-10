@@ -17,7 +17,7 @@ require (
 	github.com/kr/pretty v0.2.0 // indirect
 	github.com/prometheus/client_golang v1.3.0
 	github.com/spf13/cobra v0.0.6 // indirect
-	github.com/spf13/viper v1.6.2
+	github.com/spf13/viper v1.6.3
 	golang.org/x/net v0.0.0-20191209160850-c0dbc17a3553 // indirect
 	k8s.io/api v0.16.6
 	k8s.io/apimachinery v0.16.6
