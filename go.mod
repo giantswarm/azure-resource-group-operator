@@ -15,7 +15,7 @@ require (
 	github.com/giantswarm/versionbundle v0.2.0
 	github.com/gorilla/mux v1.7.4 // indirect
 	github.com/kr/pretty v0.2.0 // indirect
-	github.com/prometheus/client_golang v1.3.0
+	github.com/prometheus/client_golang v1.5.1
 	github.com/spf13/cobra v0.0.6 // indirect
 	github.com/spf13/viper v1.6.2
 	golang.org/x/net v0.0.0-20191209160850-c0dbc17a3553 // indirect
