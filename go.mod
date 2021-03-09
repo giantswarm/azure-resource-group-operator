@@ -4,7 +4,6 @@ go 1.13
 
 require (
 	github.com/giantswarm/apiextensions v0.2.1 // indirect
-	github.com/giantswarm/backoff v0.2.0
 	github.com/giantswarm/exporterkit v0.2.0
 	github.com/giantswarm/k8sclient v0.2.0
 	github.com/giantswarm/microendpoint v0.2.0
@@ -25,6 +24,10 @@ require (
 )
 
 replace (
+	github.com/coreos/etcd v3.3.10+incompatible => github.com/coreos/etcd v3.3.25+incompatible
+	github.com/coreos/etcd v3.3.13+incompatible => github.com/coreos/etcd v3.3.25+incompatible
+	github.com/coreos/etcd v3.3.15+incompatible => github.com/coreos/etcd v3.3.25+incompatible
+	github.com/coreos/etcd v3.3.17+incompatible => github.com/coreos/etcd v3.3.25+incompatible
 	k8s.io/api v0.0.0 => k8s.io/api v0.16.6
 	k8s.io/apiextensions-apiserver v0.0.0 => k8s.io/apiextensions-apiserver v0.16.6
 	k8s.io/apimachinery v0.0.0 => k8s.io/apimachinery v0.16.6
