@@ -2,6 +2,7 @@ package flag
 
 import (
 	"github.com/giantswarm/microkit/flag"
+
 	"github.com/giantswarm/azure-resource-group-operator/flag/service"
 )
 
